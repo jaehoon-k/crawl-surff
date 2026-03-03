@@ -37,7 +37,12 @@ async def crawl_fare_data(cntr_type: str, pol: str, pod: str, period: str = "6ê°
             
             print(f"Selecting Container: {cntr_type}")
             await page.locator("xpath=(//button[@id='select-trigger'])[1]").click()
-            cntr_match = "40'Dry" if cntr_type == "40 Dry" else cntr_type
+            if cntr_type == "40 Dry":
+                cntr_match = "40'Dry"
+            elif cntr_type == "20 Dry":
+                cntr_match = "20'Dry"
+            else:
+                cntr_match = cntr_type
             await page.wait_for_selector(f'li:has-text("{cntr_match}")', timeout=5000)
             await page.locator(f'li:has-text("{cntr_match}")').first.click()
             
