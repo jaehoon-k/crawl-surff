@@ -1,0 +1,177 @@
+{
+  "inputs": [
+    {
+      "placeholder": "검색어를 입력하세요",
+      "id": "",
+      "class": "css-k9s82y e16bquif5"
+    },
+    {
+      "placeholder": "도착지 항구를 입력해 주세요.",
+      "id": "",
+      "class": "css-1n0tiev e1yrso00"
+    },
+    {
+      "placeholder": "이메일 입력 후 뉴스레터 구독하기",
+      "id": "",
+      "class": "css-1vnwolj e16bquif5"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "",
+      "class": "css-104cmpr ecflva6"
+    },
+    {
+      "text": "",
+      "class": "css-9uy14h ezvfca04"
+    },
+    {
+      "text": "닫기",
+      "class": "css-14zcp7w el8hpj725"
+    },
+    {
+      "text": "전체보기",
+      "class": "css-1q75k4a e1xr8nzm4"
+    },
+    {
+      "text": "내 운임 직접 올리기",
+      "class": "css-r06to0 el8hpj740"
+    },
+    {
+      "text": "KR",
+      "class": "css-kxrcho e1yp1zi90"
+    },
+    {
+      "text": "",
+      "class": ""
+    },
+    {
+      "text": "40'Dry",
+      "class": "css-1u4oeeg e14tdgw76"
+    },
+    {
+      "text": "KRPUS | BUSAN",
+      "class": "css-1u4oeeg e14tdgw76"
+    },
+    {
+      "text": "",
+      "class": "fare_main_search css-vf61le e1xr8nzm4"
+    },
+    {
+      "text": "자세히 살펴보기",
+      "class": "ds-button css-raucxs e15okt8h0"
+    },
+    {
+      "text": "데이터 플랜 확인하기",
+      "class": "ds-button css-raucxs e15okt8h0"
+    },
+    {
+      "text": "",
+      "class": "css-xbtyni e1995j31"
+    },
+    {
+      "text": "",
+      "class": "css-hodj57 e1xr8nzm4"
+    },
+    {
+      "text": "×",
+      "class": "css-1tg81yf ein320q8"
+    },
+    {
+      "text": "자세히 보기",
+      "class": "css-r4c1kv e1xr8nzm4"
+    },
+    {
+      "text": "자세히 보기",
+      "class": "css-r4c1kv e1xr8nzm4"
+    },
+    {
+      "text": "자세히 보기",
+      "class": "css-r4c1kv e1xr8nzm4"
+    },
+    {
+      "text": "자세히 보기",
+      "class": "css-r4c1kv e1xr8nzm4"
+    },
+    {
+      "text": "자세히 보기",
+      "class": "css-r4c1kv e1xr8nzm4"
+    },
+    {
+      "text": "자세히 보기",
+      "class": "css-r4c1kv e1xr8nzm4"
+    },
+    {
+      "text": "자세히 보기",
+      "class": "css-r4c1kv e1xr8nzm4"
+    },
+    {
+      "text": "자세히 보기",
+      "class": "css-r4c1kv e1xr8nzm4"
+    },
+    {
+      "text": "자세히 보기",
+      "class": "css-r4c1kv e1xr8nzm4"
+    },
+    {
+      "text": "자세히 보기",
+      "class": "css-r4c1kv e1xr8nzm4"
+    },
+    {
+      "text": "자세히 보기",
+      "class": "css-r4c1kv e1xr8nzm4"
+    },
+    {
+      "text": "자세히 보기",
+      "class": "css-r4c1kv e1xr8nzm4"
+    },
+    {
+      "text": "",
+      "class": "css-qggb8f e1otc5wz7"
+    },
+    {
+      "text": "",
+      "class": "css-gtdd9g e1otc5wz7"
+    },
+    {
+      "text": "",
+      "class": "css-qggb8f e1otc5wz7"
+    },
+    {
+      "text": "",
+      "class": "css-1qxamuu e1otc5wz7"
+    },
+    {
+      "text": "",
+      "class": "css-1qxamuu e1otc5wz7"
+    },
+    {
+      "text": "",
+      "class": "css-20ncyz e1umnr6j9"
+    },
+    {
+      "text": "",
+      "class": "css-20ncyz e1umnr6j9"
+    },
+    {
+      "text": "",
+      "class": "css-20ncyz e1umnr6j9"
+    },
+    {
+      "text": "",
+      "class": "css-20ncyz e1umnr6j9"
+    },
+    {
+      "text": "",
+      "class": "css-20ncyz e1umnr6j9"
+    },
+    {
+      "text": "Close",
+      "class": "css-3e8sza e1xr8nzm4"
+    },
+    {
+      "text": "확인",
+      "class": "css-z2ojb0 e1xr8nzm4"
+    }
+  ]
+}
