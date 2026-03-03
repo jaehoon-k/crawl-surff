@@ -46,6 +46,25 @@ def get_fares(cntr_type: str, pol: str, pod: str, period: str = "6개월"):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+# Serve static files from the React build
+import os
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+
+frontend_dist = os.path.join(os.path.dirname(__file__), "..", "frontend", "dist")
+if os.path.exists(frontend_dist):
+    app.mount("/", StaticFiles(directory=frontend_dist, html=True), name="static")
+
+@app.exception_handler(404)
+async def custom_404_handler(request, exc):
+    # For SPA routing, serve index.html for 404s if it's not an API route
+    if request.url.path.startswith("/api/"):
+        return {"detail": exc.detail}
+    index_path = os.path.join(frontend_dist, "index.html")
+    if os.path.exists(index_path):
+        return FileResponse(index_path)
+    return {"detail": "Not Found"}
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)

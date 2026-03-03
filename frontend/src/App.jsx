@@ -14,7 +14,7 @@ function App() {
     try {
       // Build query string
       const params = new URLSearchParams(searchParams);
-      const response = await fetch(`http://localhost:8000/api/fares?${params}`);
+      const response = await fetch(`/api/fares?${params}`);
 
       if (!response.ok) {
         throw new Error('Failed to fetch fare data. Please check your inputs or try again later.');
