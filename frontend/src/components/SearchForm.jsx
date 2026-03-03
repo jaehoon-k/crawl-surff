@@ -26,9 +26,6 @@ const SearchForm = ({ onSearch, isLoading }) => {
                     >
                         <option value="40 Dry">40' Dry</option>
                         <option value="20 Dry">20' Dry</option>
-                        <option value="40 HC">40' High Cube</option>
-                        <option value="20 Ref">20' Reefer</option>
-                        <option value="40 Ref">40' Reefer</option>
                     </select>
                 </div>
 
